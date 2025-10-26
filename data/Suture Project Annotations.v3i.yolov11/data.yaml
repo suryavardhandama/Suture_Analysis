@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 5
+names: ['incision_line', 'scale_marker', 'suture_d', 'suture_l', 'suture_r']
+
+roboflow:
+  workspace: avisai
+  project: suture-project-annotations-qjtbk
+  version: 3
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/avisai/suture-project-annotations-qjtbk/dataset/3
